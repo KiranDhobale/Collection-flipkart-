@@ -1,0 +1,32 @@
+	/* <!--css code for slider
+		--> */
+		.myslides
+		{
+			display: none;
+		}
+	<!-- end css code for slider-->
+
+	/* <!--css code for star rating--> */
+	.checked {
+	color:orange;
+	}
+	<!--end of css code for star rating-->
+
+	.dropdown {
+	position: relative;
+	display: inline-block;
+	}
+
+	.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:orange;
+	min-width: 160;
+	box-shadow: 2px 16px 16px 4px rgba(0,0,0,0.6);
+	padding: 12px 16px;
+	color:black;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display: block;
+	}

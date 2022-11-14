@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Font Awesome Icon Library-->
+<link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+<!--css code for star rating-->
+.checked {
+ color:orange;
+}
+<!--end of css code for star rating-->
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #17202A;
+min-width: 160;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+</style>
+
+	<title>Flipkart</title>
+</head>
+<body bgcolor="#F1F3F6">
+
+<table border="0" width="100%" bgcolor="#0080FF">
+	<tr>
+		<th align="right"><img src="img.png" width="25%" height="25%"></th>
+<th><input type="text" placeholder="search for products,brands and more"></th>
+<th><font color="white"> Login & Signup</font></th>
+<th><font color="white"> More</font></th>
+<th><img src="card.png" width="30%" height="35%"></th>
+</tr>
+</table>
+
+<table border="0" width="100%" bgcolor="white">
+	<th width="12.5%">
+<div class="dropdown">
+<span> Electronics </span>
+<div class="dropdown-content">
+<p>Mobile</p>
+<p>Speakers</p>
+<p>Laptops</p>
+<p>SmartWearables</p>
+<p>Powerbanks</p>
+<p>Cameras</p>
+<p>Mobile Accessories</p>
+</div>
+</th>
+
+	<th width="12.5%">
+<div class="dropdown">
+<span>TVs & Appliances</span>
+<div class="dropdown-content">
+<p>Television</p>
+<p>Washing Machine</p>
+<p>Laptops</p>
+<p>kitchen Appliances</p>
+<p>Air Conditioners</p>
+</div>
+</th>
+
+	<th width="12.5%">
+<div class="dropdown">
+<span>Men</span>
+<div class="dropdown-content">
+<p>Footwar</p>
+<p>Men's Grooming</p>
+<p>Clothing</p>
+<p>Bottom wear</p>
+<p>Watches</p>
+<p>Smarts watches</p>
+<p>Smart band</p>
+</div>
+</th>
+	<th width="12.5%">
+<div class="dropdown">
+<span>Women</span>
+<div class="dropdown-content">
+<p>Beauty & Grooming</p>
+<p>Clothing</p>
+<p>Ethinc wear</p>
+<p>Ethinc bottoms</p>
+<p>sandals</p>
+<p>Shoes</p>
+<p>Accessories</p>
+</div>
+</th>
+	<th width="12.5%">
+<div class="dropdown">
+<span>Baby & Kids</span>
+<div class="dropdown-content">
+<p>Kids Clothing</p>
+<p>Boy's Clothing</p>
+<p>Baby Girl's Clothing</p>
+<p>Baby Boy's Clothing</p>
+<p>Kid's Flootwear</p>
+<p>Girls Footwear</p>
+<p>Kid's Winterwear</p>
+<p>Boys Winterwear</p>
+<p>Toyes</p>
+<p>Boby care</p>
+</div>
+</th>
+	<th width="12.5%">
+<div class="dropdown">
+<span>Kitchen Appliances</span>
+<div class="dropdown-content">
+<p>Kitchen,Cookware & Serveware</p>
+<p>Tableware & Dinnerware</p>
+<p>Kitchen storage</p>
+<p>Cleaning supplies</p>
+<p>Living Room Furniture</p>
+<p>Office & stady Furniture</p>
+<p>DIY Furniture</p>
+<p>Home Lighting</p>
+<p>Festivel Decor & Gifts</p>
+</div>
+</th>
+	<th width="12.5%">
+	<div class="dropdown">
+<span>Sports,Books&More</span>
+<div class="dropdown-content">
+<p>Sports</p>
+<p>Exercise Fitness</p>
+<p>Food Essentials</p>
+<p>Health & Nutrition</p>
+<p>Books</p>
+<p>Stationery</p>
+<p>Auto Accesssories</p>
+<p>Music</p>
+<p>Gaming</p>
+</div>
+</th>
+
+<th width="12.5%">
+ 	<div class="dropdown">
+<span>Offers Zone</span>
+<div class="dropdown-content">
+<p>Top Brands</p>
+<p>Shop by Brand</p>
+<p>New Lanches</p>
+
+</div>
+</th>
+</tr>
+</table>
+
+
+ <img src="banner.jpg" width="100%" height="5%">
+
+<br><br>
+<table border="0" width="100%" bgcolor="white">
+
+<tr>
+<td colspan="5"><h2>Smartphones</h2><hr></td>
+<tr>
+<th><img src="phone1.jpg"></th>
+<th><img src="phone2.jpg"></th>
+<th><img src="phone3.jpg"></th>
+<th><img src="phone4.jpg" height="80%"></th>
+<th><img src="phone5.jpg"></th>
+</tr>
+
+<td>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+</td>
+<tr>
+<th>Price :<font color="green">17,999/-</font></th>
+<th>Price :<font color="green">19,739/-</font></th>
+<th>Price :<font color="green">39,900/-</font></th>
+<th>Price :<font color="green">44,999/-</font></th>
+<th>Price :<font color="green">18,499/-</font></th>
+</tr>
+</table>
+
+<br>
+<table border="0" width="100%" bgcolor="white">
+
+<tr>
+<td colspan="5"><h2>Home Appliances</h2><hr></td>
+<tr>
+<th><img src="washing.jpg" width="80%"></th>
+<th><img src="one1.jpg" width="80%"></th>
+<th><img src="cooler.jpg"></th>
+<th><img src="jbl.jpg" height="80%"></th>
+<th><img src="ac.jpg" width="80%"></th>
+</tr>
+<tr>
+<th>Price :<font color="green">14999/-</font></th>
+<th>Price :<font color="green">79,899/-</font></th>
+<th>Price :<font color="green">9,990/-</font></th>
+<th>Price :<font color="green">45,999/-</font></th>
+<th>Price :<font color="green">45,590/-</font></th>
+</tr>
+</table>
+
+<br>
+<table border="0" width="100%" bgcolor="white">
+
+<tr>
+<td colspan="5"><h2>Earphones</h2><hr></td>
+<tr>
+<th><img src="ear1.jpg" width="50%"></th>
+<th><img src="ear2.jpg" width="%"></th>
+<th><img src="ear3.jpg" width="40%"></th>
+<th><img src="ear4.jpg" height="80%"></th>
+<th><img src="ear5.jpg" width="60%"></th>
+</tr>
+<tr>
+<th>Price :<font color="green">1,499.00/-</font></th>
+<th>Price :<font color="green">599.00/-</font></th>
+<th>Price :<font color="green">4,500.00/-</font></th>
+<th>Price :<font color="green">699.00/-</font></th>
+<th>Price :<font color="green">2,699.00/-</font></th>
+</tr>
+</table>
+</body> 
+</html>
